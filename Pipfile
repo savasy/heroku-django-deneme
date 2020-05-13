@@ -1,3 +1,8 @@
 # Pipfile
+
 [requires]
 python_version = "3.7"
+
+[packages]
+gunicorn = "==19.9.0"
+django = "*"
